@@ -1,0 +1,24 @@
+name: foldl-extended
+version: 0.0.1
+cabal-version: >=1.10
+build-type: Simple
+license: MIT
+license-file: LICENSE.md
+maintainer: Tony Day <tonyday567@gmail.com>
+bug-reports: https://github.com/tonyday567/foldl-extended/issues
+synopsis: Extensions for the foldl library
+description: <https://github.com/tonyday567/foldl-extended>
+extra-source-files:
+    README.md
+
+library
+  hs-source-dirs: src
+
+  exposed-modules:     Control.Foldl.Extended
+
+  build-depends:       base ==4.*
+                     , containers
+                     , foldl
+
+  default-language: Haskell2010
+  ghc-options: -Wall
