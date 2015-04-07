@@ -11,7 +11,7 @@ Some oft-used helpers for the foldl library
 ## Install/Develop
 
 ``` sh
-$ git clone https://github.com/tonyday567/foldl-extended.hs
+$ git clone https://github.com/tonyday567/foldl-extended.git
 $ cd foldl-extended
 $ cabal sandbox init
 $ cabal configure --enable-tests
